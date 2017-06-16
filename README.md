@@ -1,4 +1,4 @@
-#Declarações de variáveis
+#Declarações de variáveis#
 
 Podemos criar variáveis começando com $,_ e letras.
 
@@ -19,7 +19,7 @@ Ex:
 telefone_celular = "(11) 98075-2222"
 ```
 
-#Comentando código
+#Comentando código#
 
 Para comentar linha simples 
 
@@ -41,7 +41,7 @@ Ex:
 ```
 
 
-#Números literais.
+#Números literais.#
 
 O Ruby permite que você separe os milhares utilizando o _ 
 
@@ -51,7 +51,7 @@ Ex:
 habitantes = 7_000_000_000
 ```
 
-#Concatenações:
+#Concatenações:#
 
 Ex:
 
@@ -60,7 +60,7 @@ nome = "Rodrigo Almeida"
 boas_vindas = "Seha bem-vindo(a) #{nome}"
 ```
 
-# Valores Nulos
+#Valores Nulos#
 
 Em ruby não existe valores null e sim nil.
 
@@ -86,7 +86,7 @@ puts "Seja bem vindo #{nome} if not nome.nil
 ```
 
 
-#Utilizando unless (A menos que)
+#Utilizando unless (A menos que)#
 
 Ex:
 
@@ -100,7 +100,7 @@ puts "Seja bem vindo #{nome} unless nome.nil
 ```
 
 
-#Exemplo de For
+#Exemplo de For#
 
 ```
 for numero in (1..100)
@@ -110,7 +110,7 @@ end
 
 
 
-#Inicializadores
+#Inicializadores#
 
 No Ruby podemos ter atributos com valor default e em qualquer posição: 
 
@@ -149,7 +149,7 @@ A regra é primeiro o ruby verifica quais os atributos que nao tem valor default
 E assim associa a eles. Se todos os parametros forem passados ele vai substituir o valor default pelo que foi passado.
 
 
-#Variaveis de instancia
+#Variaveis de instancia#
 
 Basta colocar o @ na frente da variavel porem todas as variaveis de instancia são privadas
 
