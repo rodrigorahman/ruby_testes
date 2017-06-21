@@ -176,3 +176,21 @@ end
 ```
 
 
+# Arrays #
+
+Criando Array
+
+```
+numeros = [1,2,3]
+
+// Adicionando item no array
+
+numeros << 4
+
+// Podemos adicionar tipos misturados dentro de um array
+
+numeros << "Ola"
+
+```
+
+
